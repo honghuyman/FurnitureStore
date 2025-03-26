@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "333740577030",
+    "project_id": "bkar-furniture-store",
+    "storage_bucket": "bkar-furniture-store.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333740577030:android:82ebbec61ac5c4cf170e87",
+        "android_client_info": {
+          "package_name": "io.github.chayanforyou.arfurniture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333740577030-tkt771egabk8mjb2eat654gk6pcinhm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.chayanforyou.arfurniture",
+            "certificate_hash": "3a9187fe6a7becb6c3ffc7701d82e70cbf56efe3"
+          }
+        },
+        {
+          "client_id": "333740577030-68pd8mrqpo48mj8hcam3m6ljb35j8qnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6o1Y010QbAkckpVVc6S-O9JxGGQArnvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333740577030-68pd8mrqpo48mj8hcam3m6ljb35j8qnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333740577030:android:5aff651d39799f02170e87",
+        "android_client_info": {
+          "package_name": "vn.edu.hcmut.furniturestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333740577030-68pd8mrqpo48mj8hcam3m6ljb35j8qnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6o1Y010QbAkckpVVc6S-O9JxGGQArnvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333740577030-68pd8mrqpo48mj8hcam3m6ljb35j8qnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
