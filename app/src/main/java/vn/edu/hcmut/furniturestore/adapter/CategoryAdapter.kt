@@ -1,10 +1,12 @@
 package vn.edu.hcmut.furniturestore.adapter
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import vn.edu.hcmut.furniturestore.R
@@ -26,6 +28,11 @@ class CategoryAdapter(private val categories: List<Category>) : RecyclerView.Ada
         val category = categories[position]
         holder.name.text = category.name
         Glide.with(holder.itemView.context).load(category.image).into(holder.image)
+
+        // Handle click event
+        holder.itemView.setOnClickListener {
+            Toast.makeText(holder.itemView.context, "Clicked on: ${category.id}", Toast.LENGTH_SHORT).show()
+        }
     }
 
     override fun getItemCount(): Int = categories.size

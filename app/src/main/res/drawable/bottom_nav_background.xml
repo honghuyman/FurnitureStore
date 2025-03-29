@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="56dp"
+    android:viewportWidth="400"
+    android:viewportHeight="56">
+
+    <!-- Bottom navigation bar with a downward dent -->
+    <path
+        android:fillColor="@color/nav_bar_grey"
+        android:pathData="M-45,0 h200
+                         a30,30 0 0,0 90,0
+                         h180 v100 h-500 z"/>
+</vector>

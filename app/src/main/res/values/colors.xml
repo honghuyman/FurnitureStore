@@ -7,4 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="cart_badge_blue">#345DA7</color>
+    <color name="orange">#FF9F1A</color>
+    <color name="orange_light">#FFC45E</color>
+    <color name="background_1">#EBE094</color>
+    <color name="background_2">#F4CA9E</color>
+    <color name="nav_bar_grey">#D9D9D9</color>
 </resources>
