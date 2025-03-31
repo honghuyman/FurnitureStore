@@ -51,6 +51,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "333740577030-9ucedm3ntd28vhj36lmkrhh55v62r4m4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vn.edu.hcmut.furniturestore",
+            "certificate_hash": "3a9187fe6a7becb6c3ffc7701d82e70cbf56efe3"
+          }
+        },
+        {
           "client_id": "333740577030-68pd8mrqpo48mj8hcam3m6ljb35j8qnh.apps.googleusercontent.com",
           "client_type": 3
         }

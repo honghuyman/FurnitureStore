@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="400dp"
-    android:height="56dp"
+    android:height="102dp"
     android:viewportWidth="400"
-    android:viewportHeight="56">
+    android:viewportHeight="102">
 
     <!-- Bottom navigation bar with a downward dent -->
     <path
