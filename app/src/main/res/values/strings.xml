@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">FurnitureStore</string>
+    <!--  ARView Screen  -->
+    <string name="message_move_gesture">Move model around the detected surface</string>
+    <string name="message_rotate_gesture">Rotate the model by using two fingers</string>
+    <string name="message_zoom_gesture">Zoom in or out on the model by using a pinch gesture</string>
+    <string name="message_scan_horizontal_plane">Scan horizontal plane</string>
+    <string name="message_scan_vertical_plane">Scan vertical plane</string>
+    <string name="message_scan_any_plane">Scan any plane surface</string>
+    <string name="onboarding_1_title">Welcome to AR Furniture</string>
+    <string name="onboarding_1_description">Transform your space with the power of augmented reality. Visualize your furniture in real-time, right in your home.</string>
+    <string name="onboarding_2_title">Explore Furniture Options</string>
+    <string name="onboarding_2_description">Browse through a wide selection of furniture and find the perfect pieces for your home. With AR, you can see how they fit in your space before purchasing.</string>
+    <string name="onboarding_3_title">Ready to Shop?</string>
+    <string name="onboarding_3_description">Now that you\'ve seen how your new furniture looks in your home, it\'s time to add it to your cart and checkout. Get started with the most convenient shopping experience.</string>
 </resources>
