@@ -56,6 +56,7 @@ android {
 }
 
 dependencies {
+
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.firebase.auth)
     implementation(libs.play.services.auth)
@@ -84,7 +85,7 @@ dependencies {
     androidTestImplementation(platform(libs.androidx.compose.bom))
     // ARSceneView
     implementation(libs.sceneview.ar)
-
+    implementation(libs.sceneview)
     // Lottie
     implementation(libs.lottie)
     kapt("com.github.bumptech.glide:compiler:4.16.0")

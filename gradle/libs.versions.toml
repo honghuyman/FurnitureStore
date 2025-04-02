@@ -18,6 +18,7 @@ activityCompose = "1.10.1"
 composeBom = "2025.02.00"
 composeCompiler = "1.5.10"
 arsceneview = "2.2.1"
+sceneview = "2.2.1"
 lottie = "6.4.0"
 
 [libraries]
@@ -49,6 +50,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
 sceneview-ar = { module = "io.github.sceneview:arsceneview", version.ref = "arsceneview" }
+sceneview = { module = "io.github.sceneview:sceneview", version.ref = "sceneview" }
 lottie = { module = "com.airbnb.android:lottie-compose", version.ref = "lottie" }
 
 
