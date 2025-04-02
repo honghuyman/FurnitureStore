@@ -74,6 +74,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import vn.edu.hcmut.furniturestore.adapter.CategoryAdapter
+import vn.edu.hcmut.furniturestore.adapter.screens.ARScreen
 import vn.edu.hcmut.furniturestore.viewmodel.CategoryViewModel
 
 class CategoryActivity : AppCompatActivity() {
@@ -123,12 +124,23 @@ class CategoryActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
                 }
+                R.id.nav_ar -> {
+                    try {
+                        val intent = Intent(this, ARScreenActivity::class.java)
+                        startActivity(intent)
+                        true
+                    } catch (e: Exception) {
+                        Toast.makeText(this, "Error launching AR: ${e.message}", Toast.LENGTH_SHORT).show()
+                        false
+                    }
+                }
                 R.id.nav_user -> {
                     // This is the part that wasn't working
                     val intent = Intent(this, ProfileActivity::class.java)
                     startActivity(intent)
                     true
                 }
+
                 else -> false
             }
         }
@@ -144,6 +156,11 @@ class CategoryActivity : AppCompatActivity() {
         return when (item.itemId) {
             R.id.nav_user -> {
                 val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+                true
+            }
+            R.id.nav_ar -> {
+                val intent = Intent(this, ARScreenActivity::class.java)
                 startActivity(intent)
                 true
             }

@@ -90,12 +90,20 @@ class ProfileActivity : AppCompatActivity() {
                     startActivity(intent)
                     true
                 }
-
                 R.id.nav_user -> {
                     // Already in Profile screen
                     true
                 }
-
+                R.id.nav_ar -> {
+                    try {
+                        val intent = Intent(this, ARScreenActivity::class.java)
+                        startActivity(intent)
+                        true
+                    } catch (e: Exception) {
+                        Toast.makeText(this, "Error launching AR: ${e.message}", Toast.LENGTH_SHORT).show()
+                        false
+                    }
+                }
                 else -> false
             }
         }

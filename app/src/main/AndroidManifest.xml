@@ -21,6 +21,11 @@
         </activity>
         <activity android:name="vn.edu.hcmut.furniturestore.CategoryActivity" />
         <activity android:name="vn.edu.hcmut.furniturestore.ProfileActivity" />
+        <activity
+            android:name="vn.edu.hcmut.furniturestore.ARScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
     </application>
 
 </manifest>

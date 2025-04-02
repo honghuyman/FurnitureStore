@@ -13,5 +13,6 @@
     app:backgroundTint="@color/orange"
     android:elevation="0dp"
     app:elevation="0dp"
+    android:contentDescription="Open AR view"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto" />
